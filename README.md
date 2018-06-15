@@ -4,7 +4,7 @@ run latexmk by docker container(https://github.com/Paperist/docker-alpine-texliv
 
 ## require
 
-1. write .latexmkrc on your $HOME.
+1. write `.latexmkrc` on your $HOME. `latexmkrc` is example file.
 2. install docker
 
 ## install
