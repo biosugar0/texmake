@@ -1,0 +1,5 @@
+#!/bin/bash
+homeenv="HOME=${HOME}"
+repo="paperist/alpine-texlive-ja"
+docker run --rm -it -e $homeenv -v $PWD:/workdir -v $HOME:$HOME \
+    $repo /bin/bash -c 'latexmk main && latexmk -c '$@
