@@ -19,5 +19,5 @@ cp texmake /usr/local/bin/
 
 
 ```
-texmake main.tex
+texmake main
 ```
