@@ -10,6 +10,8 @@ run latexmk by docker container(https://github.com/Paperist/docker-alpine-texliv
 ## install
 
 ```
+git clone https://github.com/biosugar0/texmake.git
+cd texmake
 cp texmake /usr/local/bin/
 ```
 
